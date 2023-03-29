@@ -1,0 +1,71 @@
+.tableRow {
+  background-color: white;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 2px;
+}
+
+.selectedTableRow {
+  background-color: #d0433c;
+  color: white;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 2px;
+}
+
+.tableRow:hover {
+  cursor: pointer;
+  background-color: #e59f9b;
+  transition: 300ms;
+}
+
+.avatar {
+  width: 30px;
+}
+
+.hasCompany {
+  text-align: center;
+}
+
+td {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 10px;
+}
+
+td:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+td:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.deleteButton,
+.deleteButton:focus {
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+@media only screen and (min-width: 600px) {
+  td {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .avatar {
+    width: 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  td {
+    padding: 15px;
+    font-size: 15px;
+  }
+}

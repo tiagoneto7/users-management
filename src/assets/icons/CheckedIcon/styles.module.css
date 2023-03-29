@@ -1,0 +1,29 @@
+.checkedIcon {
+  color: rgb(0, 169, 0);
+  width: 10px;
+}
+
+.selectedCheckedIcon {
+  color: white;
+  width: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .checkedIcon {
+    width: 15px;
+  }
+
+  .selectedCheckedIcon {
+    width: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .checkedIcon {
+    width: 20px;
+  }
+
+  .selectedCheckedIcon {
+    width: 20px;
+  }
+}

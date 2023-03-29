@@ -1,0 +1,29 @@
+.uncheckedIcon {
+  color: #de352c;
+  width: 10px;
+}
+
+.selectedUncheckedIcon {
+  color: white;
+  width: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .uncheckedIcon {
+    width: 15px;
+  }
+
+  .selectedUncheckedIcon {
+    width: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .uncheckedIcon {
+    width: 20px;
+  }
+
+  .selectedUncheckedIcon {
+    width: 20px;
+  }
+}
